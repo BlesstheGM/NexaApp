@@ -112,6 +112,6 @@ Network isolation: Turn off mobile data and Wi-Fi (except Wi-Fi Direct) to simul
 File transfer: Test with both small and large files to see chunked encryption in action.
 
 👥 Authors
-Blessing Hlongwane 
-Talha Omargee
-Kagiso Lekhuleni 
+Blessing Hlongwane <br>
+Talha Omargee<br>
+Kagiso Lekhuleni <br>
