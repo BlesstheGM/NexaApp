@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.nexa.networking.P2pConnectionServiceTest" tests="20" failures="2" errors="0" skipped="0" time="4.123">
+    <testcase name="testSendTextMessage" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.245"/>
+    <testcase name="testReceiveTextMessage" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.260"/>
+    <testcase name="testSendFileSmall" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.275"/>
+    <testcase name="testReceiveFileSmall" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.290"/>
+    <testcase name="testSendFileLarge_5MB" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.305">
+        <failure message="java.io.IOException: Connection timeout during file transfer" type="java.io.IOException">
+            com.example.nexa.networking.P2pConnectionService.sendFile(P2pConnectionService.kt:89)
+            com.example.nexa.networking.P2pConnectionServiceTest.testSendFileLarge_5MB(P2pConnectionServiceTest.kt:156)
+        </failure>
+    </testcase>
+    <testcase name="testReceiveFileLarge_5MB" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.320">
+        <failure message="java.io.IOException: Buffer overflow during file transfer" type="java.io.IOException">
+            com.example.nexa.networking.P2pConnectionService.receiveFile(P2pConnectionService.kt:102)
+            com.example.nexa.networking.P2pConnectionServiceTest.testReceiveFileLarge_5MB(P2pConnectionServiceTest.kt:167)
+        </failure>
+    </testcase>
+    <testcase name="testSendTextMultiple" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.235"/>
+    <testcase name="testReceiveTextMultiple" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.250"/>
+    <testcase name="testSendFileBoundary" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.265"/>
+    <testcase name="testReceiveFileBoundary" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.280"/>
+    <testcase name="testSendTextInvalidPeer" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.195"/>
+    <testcase name="testReceiveTextInvalidPeer" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.210"/>
+    <testcase name="testSendFileInvalidPeer" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.225"/>
+    <testcase name="testReceiveFileInvalidPeer" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.240"/>
+    <testcase name="testSendTextEmptyPeerId" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.255">
+        <failure message="java.lang.NullPointerException: Empty peer ID provided" type="java.lang.NullPointerException">
+            com.example.nexa.networking.P2pConnectionService.sendText(P2pConnectionService.kt:67)
+            com.example.nexa.networking.P2pConnectionServiceTest.testSendTextEmptyPeerId(P2pConnectionServiceTest.kt:178)
+        </failure>
+    </testcase>
+    <testcase name="testReceiveTextEmptyPeerId" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.190"/>
+    <testcase name="testSendFileNullPeerId" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.205"/>
+    <testcase name="testReceiveFileNullPeerId" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.220"/>
+    <testcase name="testSendTextMalformedPeerId" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.235"/>
+    <testcase name="testReceiveTextMalformedPeerId" classname="com.example.nexa.networking.P2pConnectionServiceTest" time="0.250"/>
+</testsuite>

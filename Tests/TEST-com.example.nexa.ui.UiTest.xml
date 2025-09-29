@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.nexa.ui.UiTest" tests="20" failures="1" errors="0" skipped="0" time="4.123">
+    <testcase name="testMainActivityLoad" classname="com.example.nexa.ui.UiTest" time="0.245"/>
+    <testcase name="testMainActivityPeerDisplay" classname="com.example.nexa.ui.UiTest" time="0.260"/>
+    <testcase name="testMainActivityNoPeers" classname="com.example.nexa.ui.UiTest" time="0.198"/>
+    <testcase name="testMainActivityNetworkDrop" classname="com.example.nexa.ui.UiTest" time="0.255"/>
+    <testcase name="testMainActivityMaxPeers" classname="com.example.nexa.ui.UiTest" time="0.270"/>
+    <testcase name="testChatActivityLoad" classname="com.example.nexa.ui.UiTest" time="0.235"/>
+    <testcase name="testChatActivityMessageDisplay" classname="com.example.nexa.ui.UiTest" time="0.250"/>
+    <testcase name="testChatActivityEmptyMessage" classname="com.example.nexa.ui.UiTest" time="0.205"/>
+    <testcase name="testChatActivityInvalidMessage" classname="com.example.nexa.ui.UiTest" time="0.200"/>
+    <testcase name="testChatActivityLargeMessage" classname="com.example.nexa.ui.UiTest" time="0.265"/>
+    <testcase name="testMainActivityNormal" classname="com.example.nexa.ui.UiTest" time="0.230"/>
+    <testcase name="testMainActivityMultiplePeers" classname="com.example.nexa.ui.UiTest" time="0.245"/>
+    <testcase name="testMainActivityEmptyList" classname="com.example.nexa.ui.UiTest" time="0.195"/>
+    <testcase name="testMainActivityInvalidData" classname="com.example.nexa.ui.UiTest" time="0.200">
+        <failure message="java.lang.IllegalArgumentException: Invalid UI input" type="java.lang.IllegalArgumentException">
+            com.example.nexa.ui.MainActivity.handlePeerData(MainActivity.kt:76)
+            com.example.nexa.ui.UiTest.testMainActivityInvalidData(UiTest.kt:132)
+        </failure>
+    </testcase>
+    <testcase name="testMainActivityLargeNetwork" classname="com.example.nexa.ui.UiTest" time="0.260"/>
+    <testcase name="testChatActivityNormal" classname="com.example.nexa.ui.UiTest" time="0.235"/>
+    <testcase name="testChatActivityMultipleMessages" classname="com.example.nexa.ui.UiTest" time="0.250"/>
+    <testcase name="testChatActivityEmptyInput" classname="com.example.nexa.ui.UiTest" time="0.195"/>
+    <testcase name="testChatActivityInvalidInput" classname="com.example.nexa.ui.UiTest" time="0.200"/>
+    <testcase name="testChatActivityMaxLoad" classname="com.example.nexa.ui.UiTest" time="0.265"/>
+</testsuite>

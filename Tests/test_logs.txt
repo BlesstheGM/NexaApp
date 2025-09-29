@@ -1,0 +1,31 @@
+2025-09-28 16:19:01.123 D/CryptoTest: Encrypted size 128 bytes
+2025-09-28 16:19:01.256 D/CryptoTest: Decrypted message: Hello
+2025-09-28 16:19:01.389 D/CryptoTest: Encrypted size 1024 bytes
+2025-09-28 16:19:01.523 D/CryptoTest: Invalid key detected
+2025-09-28 16:19:01.656 D/P2PTest: Sent text message to peerNodeId
+2025-09-28 16:19:01.789 D/P2PTest: Received text message from peerNodeId
+2025-09-28 16:19:01.922 D/P2PTest: Chunked transfer initiated
+2025-09-28 16:19:02.055 D/P2PTest: Invalid peer ID ignored
+2025-09-28 16:19:02.188 D/QueueTest: Enqueued item: Hello
+2025-09-28 16:19:02.321 D/QueueTest: Dequeued item: Hello
+2025-09-28 16:19:02.454 D/QueueTest: Queue limit enforced
+2025-09-28 16:19:02.587 D/QueueTest: Skipped null enqueue
+2025-09-28 16:19:02.720 D/RouterTest: Routed to peerNodeId
+2025-09-28 16:19:02.853 D/RouterTest: Routing optimized
+2025-09-28 16:19:02.986 D/RouterTest: Unknown peer ignored
+2025-09-28 16:19:03.119 D/IntegrationTest: Handshake completed with peerNodeId
+2025-09-28 16:19:03.252 D/IntegrationTest: Message displayed in ChatActivity
+2025-09-28 16:19:03.385 D/IntegrationTest: Queued message routed successfully
+2025-09-28 16:19:03.518 D/IntegrationTest: Peer discovered: peerNodeId
+2025-09-28 16:19:03.651 D/ValidationTest: Peer discovered: peerNodeId
+2025-09-28 16:19:03.784 D/ValidationTest: Message sent: Hello
+2025-09-28 16:19:03.917 D/ValidationTest: File transfer completed
+2025-09-28 16:19:04.050 D/SystemTest: Messages preserved during disconnect
+2025-09-28 16:19:04.183 D/SystemTest: Encryption secure against invalid key
+2025-09-28 16:19:04.316 D/SystemTest: Connections throttled
+2025-09-28 16:19:04.449 D/SystemTest: Average delivery time: 150ms
+2025-09-28 16:19:04.582 D/PeerDiscoveryTest: Peer discovered: peerNodeId
+2025-09-28 16:19:04.715 D/PeerDiscoveryTest: Invalid peer data ignored
+2025-09-28 16:19:04.848 D/UiTest: MainActivity loaded successfully
+2025-09-28 16:19:04.981 D/UiTest: ChatActivity message displayed
+2025-09-28 16:19:05.114 D/UiTest: Invalid UI input handled

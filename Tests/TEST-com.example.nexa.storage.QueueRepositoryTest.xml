@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.nexa.storage.QueueRepositoryTest" tests="20" failures="1" errors="0" skipped="0" time="3.789">
+    <testcase name="testEnqueueSingleMessage" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.234"/>
+    <testcase name="testDequeueSingleMessage" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.245"/>
+    <testcase name="testEnqueueMultipleMessages" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.256"/>
+    <testcase name="testDequeueMultipleMessages" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.267"/>
+    <testcase name="testEnqueueLargeQueue_1000" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.278">
+        <failure message="android.database.sqlite.SQLiteFullException: Database full" type="android.database.sqlite.SQLiteFullException">
+            com.example.nexa.storage.QueueRepository.enqueue(QueueRepository.kt:56)
+            com.example.nexa.storage.QueueRepositoryTest.testEnqueueLargeQueue_1000(QueueRepositoryTest.kt:134)
+        </failure>
+    </testcase>
+    <testcase name="testDequeueLargeQueue" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.289"/>
+    <testcase name="testEnqueueBoundarySize" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.201"/>
+    <testcase name="testDequeueBoundarySize" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.212"/>
+    <testcase name="testEnqueueSmallMessage" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.178"/>
+    <testcase name="testDequeueSmallMessage" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.189"/>
+    <testcase name="testEnqueueNullInput" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.156"/>
+    <testcase name="testDequeueNullInput" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.167"/>
+    <testcase name="testEnqueueInvalidData" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.145"/>
+    <testcase name="testDequeueInvalidData" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.134"/>
+    <testcase name="testEnqueueEmptyInput" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.123"/>
+    <testcase name="testDequeueEmptyInput" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.112"/>
+    <testcase name="testEnqueueMaxSize" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.201"/>
+    <testcase name="testDequeueMaxSize" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.212"/>
+    <testcase name="testEnqueueMultipleBoundary" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.223"/>
+    <testcase name="testDequeueMultipleBoundary" classname="com.example.nexa.storage.QueueRepositoryTest" time="0.234"/>
+</testsuite>

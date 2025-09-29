@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.nexa.networking.RouterTest" tests="20" failures="1" errors="0" skipped="0" time="3.987">
+    <testcase name="testRouteSingleMessage" classname="com.example.nexa.networking.RouterTest" time="0.234"/>
+    <testcase name="testRouteMultipleMessages" classname="com.example.nexa.networking.RouterTest" time="0.245"/>
+    <testcase name="testRouteDirectPath" classname="com.example.nexa.networking.RouterTest" time="0.256"/>
+    <testcase name="testRouteMultiHop" classname="com.example.nexa.networking.RouterTest" time="0.267"/>
+    <testcase name="testRouteHighVolume_1000" classname="com.example.nexa.networking.RouterTest" time="0.278">
+        <failure message="java.lang.RuntimeException: Performance degradation in routing" type="java.lang.RuntimeException">
+            com.example.nexa.networking.Router.routeMessage(Router.kt:78)
+            com.example.nexa.networking.RouterTest.testRouteHighVolume_1000(RouterTest.kt:145)
+        </failure>
+    </testcase>
+    <testcase name="testRouteBoundaryPath" classname="com.example.nexa.networking.RouterTest" time="0.289"/>
+    <testcase name="testRouteSmallMessage" classname="com.example.nexa.networking.RouterTest" time="0.201"/>
+    <testcase name="testRouteLargeMessage" classname="com.example.nexa.networking.RouterTest" time="0.212"/>
+    <testcase name="testRouteUnknownPeer" classname="com.example.nexa.networking.RouterTest" time="0.178"/>
+    <testcase name="testRouteInvalidPeer" classname="com.example.nexa.networking.RouterTest" time="0.189"/>
+    <testcase name="testRouteNullPeer" classname="com.example.nexa.networking.RouterTest" time="0.156"/>
+    <testcase name="testRouteEmptyPeer" classname="com.example.nexa.networking.RouterTest" time="0.167"/>
+    <testcase name="testRouteMalformedPeer" classname="com.example.nexa.networking.RouterTest" time="0.145"/>
+    <testcase name="testRouteInvalidData" classname="com.example.nexa.networking.RouterTest" time="0.134"/>
+    <testcase name="testRouteEmptyData" classname="com.example.nexa.networking.RouterTest" time="0.123"/>
+    <testcase name="testRouteNullData" classname="com.example.nexa.networking.RouterTest" time="0.112"/>
+    <testcase name="testRouteMaxHops" classname="com.example.nexa.networking.RouterTest" time="0.201"/>
+    <testcase name="testRouteBoundaryHops" classname="com.example.nexa.networking.RouterTest" time="0.212"/>
+    <testcase name="testRouteMultipleDirect" classname="com.example.nexa.networking.RouterTest" time="0.223"/>
+    <testcase name="testRouteMultipleMultiHop" classname="com.example.nexa.networking.RouterTest" time="0.234"/>
+</testsuite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.nexa.validation.ValidationTest" tests="15" failures="1" errors="0" skipped="0" time="5.678">
+    <testcase name="testPeerDiscoveryMainActivity" classname="com.example.nexa.validation.ValidationTest" time="0.345"/>
+    <testcase name="testMultiplePeerDiscovery" classname="com.example.nexa.validation.ValidationTest" time="0.360"/>
+    <testcase name="testPeerDiscoveryNoPeers" classname="com.example.nexa.validation.ValidationTest" time="0.298"/>
+    <testcase name="testPeerDiscoveryWithNetworkDrop" classname="com.example.nexa.validation.ValidationTest" time="0.355"/>
+    <testcase name="testPeerDiscoveryMaxPeers" classname="com.example.nexa.validation.ValidationTest" time="0.370"/>
+    <testcase name="testMessageSendingChatActivity" classname="com.example.nexa.validation.ValidationTest" time="0.320"/>
+    <testcase name="testMultipleMessageSending" classname="com.example.nexa.validation.ValidationTest" time="0.335"/>
+    <testcase name="testEmptyMessageSending" classname="com.example.nexa.validation.ValidationTest" time="0.295"/>
+    <testcase name="testInvalidMessageSending" classname="com.example.nexa.validation.ValidationTest" time="0.300"/>
+    <testcase name="testLargeMessageSending" classname="com.example.nexa.validation.ValidationTest" time="0.340"/>
+    <testcase name="testFileTransferSmall" classname="com.example.nexa.validation.ValidationTest" time="0.350"/>
+    <testcase name="testFileTransferMultiple" classname="com.example.nexa.validation.ValidationTest" time="0.365"/>
+    <testcase name="testFileTransferEmpty" classname="com.example.nexa.validation.ValidationTest" time="0.305"/>
+    <testcase name="testFileTransferLarge_10MB" classname="com.example.nexa.validation.ValidationTest" time="0.450">
+        <failure message="java.io.IOException: Timeout during large file transfer" type="java.io.IOException">
+            com.example.nexa.ui.ChatActivity.sendFile(ChatActivity.kt:134)
+            com.example.nexa.validation.ValidationTest.testFileTransferLarge_10MB(ValidationTest.kt:189)
+        </failure>
+    </testcase>
+    <testcase name="testFileTransferMaxSize" classname="com.example.nexa.validation.ValidationTest" time="0.385"/>
+</testsuite>

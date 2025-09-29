@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.nexa.security.CryptoTest" tests="20" failures="1" errors="0" skipped="0" time="3.456">
+    <testcase name="testEncryptStandardMessage" classname="com.example.nexa.security.CryptoTest" time="0.234"/>
+    <testcase name="testDecryptStandardMessage" classname="com.example.nexa.security.CryptoTest" time="0.245"/>
+    <testcase name="testEncryptLargePayload" classname="com.example.nexa.security.CryptoTest" time="0.256"/>
+    <testcase name="testDecryptLargePayload" classname="com.example.nexa.security.CryptoTest" time="0.267"/>
+    <testcase name="testEncryptBoundarySize" classname="com.example.nexa.security.CryptoTest" time="0.189"/>
+    <testcase name="testDecryptBoundarySize" classname="com.example.nexa.security.CryptoTest" time="0.195"/>
+    <testcase name="testEncryptSmallMessage" classname="com.example.nexa.security.CryptoTest" time="0.178"/>
+    <testcase name="testDecryptSmallMessage" classname="com.example.nexa.security.CryptoTest" time="0.184"/>
+    <testcase name="testEncryptMultipleMessages" classname="com.example.nexa.security.CryptoTest" time="0.201"/>
+    <testcase name="testDecryptMultipleMessages" classname="com.example.nexa.security.CryptoTest" time="0.212"/>
+    <testcase name="testEncryptMaxSize" classname="com.example.nexa.security.CryptoTest" time="0.223"/>
+    <testcase name="testDecryptMaxSize" classname="com.example.nexa.security.CryptoTest" time="0.234"/>
+    <testcase name="testEncryptWithInvalidKey" classname="com.example.nexa.security.CryptoTest" time="0.167">
+        <failure message="java.lang.IllegalArgumentException: Null key provided" type="java.lang.IllegalArgumentException">
+            com.example.nexa.security.Crypto.encrypt(Crypto.kt:45)
+            com.example.nexa.security.CryptoTest.testEncryptWithInvalidKey(CryptoTest.kt:123)
+        </failure>
+    </testcase>
+    <testcase name="testDecryptWithInvalidKey" classname="com.example.nexa.security.CryptoTest" time="0.156"/>
+    <testcase name="testEncryptWithMalformedKey" classname="com.example.nexa.security.CryptoTest" time="0.145"/>
+    <testcase name="testDecryptWithMalformedKey" classname="com.example.nexa.security.CryptoTest" time="0.134"/>
+    <testcase name="testEncryptWithNullInput" classname="com.example.nexa.security.CryptoTest" time="0.123"/>
+    <testcase name="testDecryptWithNullInput" classname="com.example.nexa.security.CryptoTest" time="0.112"/>
+    <testcase name="testEncryptWithEmptyInput" classname="com.example.nexa.security.CryptoTest" time="0.101"/>
+    <testcase name="testDecryptWithEmptyInput" classname="com.example.nexa.security.CryptoTest" time="0.090"/>
+</testsuite>

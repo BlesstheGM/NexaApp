@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:background="#FFFFFF"
+    android:elevation="4dp">
+
+    <Button
+        android:id="@+id/footerScan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Scan"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/footerChats"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Chats"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.nexa.system.SystemTest" tests="20" failures="1" errors="0" skipped="0" time="6.234">
+    <testcase name="testNetworkDisconnectRecovery" classname="com.example.nexa.system.SystemTest" time="0.412"/>
+    <testcase name="testMultipleDisconnects" classname="com.example.nexa.system.SystemTest" time="0.428"/>
+    <testcase name="testQueuePersistenceDisconnect" classname="com.example.nexa.system.SystemTest" time="0.395"/>
+    <testcase name="testReconnectAfterDrop" classname="com.example.nexa.system.SystemTest" time="0.420"/>
+    <testcase name="testQueueFullDisconnect" classname="com.example.nexa.system.SystemTest" time="0.405"/>
+    <testcase name="testEncryptionUnderAttack" classname="com.example.nexa.system.SystemTest" time="0.380"/>
+    <testcase name="testInvalidKeyAttack" classname="com.example.nexa.system.SystemTest" time="0.375"/>
+    <testcase name="testMalformedDataAttack" classname="com.example.nexa.system.SystemTest" time="0.370"/>
+    <testcase name="testEncryptionWithNullInput" classname="com.example.nexa.system.SystemTest" time="0.365"/>
+    <testcase name="testEncryptionWithLargeInput" classname="com.example.nexa.system.SystemTest" time="0.390"/>
+    <testcase name="testStressMultipleConnections_50" classname="com.example.nexa.system.SystemTest" time="0.510">
+        <failure message="java.lang.RuntimeException: Performance degradation with 50 connections" type="java.lang.RuntimeException">
+            com.example.nexa.networking.P2pConnectionService.handleConnections(P2pConnectionService.kt:156)
+            com.example.nexa.system.SystemTest.testStressMultipleConnections_50(SystemTest.kt:212)
+        </failure>
+    </testcase>
+    <testcase name="testStressMaxConnections" classname="com.example.nexa.system.SystemTest" time="0.495"/>
+    <testcase name="testStressLargeQueue" classname="com.example.nexa.system.SystemTest" time="0.480"/>
+    <testcase name="testStressMultipleRoutes" classname="com.example.nexa.system.SystemTest" time="0.475"/>
+    <testcase name="testStressInvalidInputs" classname="com.example.nexa.system.SystemTest" time="0.460"/>
+    <testcase name="testPerformanceMessageDelivery" classname="com.example.nexa.system.SystemTest" time="0.350"/>
+    <testcase name="testPerformanceFileTransfer" classname="com.example.nexa.system.SystemTest" time="0.365"/>
+    <testcase name="testPerformanceMultipleMessages" classname="com.example.nexa.system.SystemTest" time="0.370"/>
+    <testcase name="testPerformanceUnderLoad" classname="com.example.nexa.system.SystemTest" time="0.380"/>
+    <testcase name="testPerformanceMaxPayload" classname="com.example.nexa.system.SystemTest" time="0.395"/>
+</testsuite>

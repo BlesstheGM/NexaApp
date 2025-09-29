@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.nexa.integration.IntegrationTest" tests="25" failures="0" errors="0" skipped="0" time="5.123">
+    <testcase name="testHandshakeP2pAndPeerDiscovery" classname="com.example.nexa.integration.IntegrationTest" time="0.245"/>
+    <testcase name="testMultipleHandshakes" classname="com.example.nexa.integration.IntegrationTest" time="0.260"/>
+    <testcase name="testHandshakeWithInvalidPeer" classname="com.example.nexa.integration.IntegrationTest" time="0.198"/>
+    <testcase name="testHandshakeUnderNetworkDrop" classname="com.example.nexa.integration.IntegrationTest" time="0.255"/>
+    <testcase name="testHandshakeWithKnownPeer" classname="com.example.nexa.integration.IntegrationTest" time="0.240"/>
+    <testcase name="testHandshakeMultiplePeers" classname="com.example.nexa.integration.IntegrationTest" time="0.270"/>
+    <testcase name="testHandshakeWithEmptyPeerId" classname="com.example.nexa.integration.IntegrationTest" time="0.195"/>
+    <testcase name="testHandshakeWithNullPeerId" classname="com.example.nexa.integration.IntegrationTest" time="0.190"/>
+    <testcase name="testHandshakeWithMalformedPeerId" classname="com.example.nexa.integration.IntegrationTest" time="0.200"/>
+    <testcase name="testHandshakeWithMaxPeers" classname="com.example.nexa.integration.IntegrationTest" time="0.280"/>
+    <testcase name="testChatActivityLiveDataUpdate" classname="com.example.nexa.integration.IntegrationTest" time="0.235"/>
+    <testcase name="testChatActivityMultipleMessages" classname="com.example.nexa.integration.IntegrationTest" time="0.250"/>
+    <testcase name="testChatActivityEmptyMessage" classname="com.example.nexa.integration.IntegrationTest" time="0.205"/>
+    <testcase name="testChatActivityInvalidMessage" classname="com.example.nexa.integration.IntegrationTest" time="0.200"/>
+    <testcase name="testChatActivityLargeMessage" classname="com.example.nexa.integration.IntegrationTest" time="0.265"/>
+    <testcase name="testQueueToRouterInteraction" classname="com.example.nexa.integration.IntegrationTest" time="0.240"/>
+    <testcase name="testQueueToRouterMultipleMessages" classname="com.example.nexa.integration.IntegrationTest" time="0.255"/>
+    <testcase name="testQueueToRouterEmptyQueue" classname="com.example.nexa.integration.IntegrationTest" time="0.195"/>
+    <testcase name="testQueueToRouterInvalidMessage" classname="com.example.nexa.integration.IntegrationTest" time="0.200"/>
+    <testcase name="testQueueToRouterLargeQueue" classname="com.example.nexa.integration.IntegrationTest" time="0.270"/>
+    <testcase name="testMainActivityPeerDiscovery" classname="com.example.nexa.integration.IntegrationTest" time="0.235"/>
+    <testcase name="testMainActivityMultiplePeers" classname="com.example.nexa.integration.IntegrationTest" time="0.250"/>
+    <testcase name="testMainActivityNoPeers" classname="com.example.nexa.integration.IntegrationTest" time="0.205"/>
+    <testcase name="testMainActivityInvalidPeerData" classname="com.example.nexa.integration.IntegrationTest" time="0.200"/>
+    <testcase name="testMainActivityLargeNetwork" classname="com.example.nexa.integration.IntegrationTest" time="0.265"/>
+</testsuite>

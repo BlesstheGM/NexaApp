@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/peer_item_bg"
+    android:gravity="center_vertical">
+
+    <!-- 👤 User icon on the left -->
+    <ImageView
+        android:id="@+id/peerIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@android:drawable/ic_menu_myplaces"
+        android:tint="#2196F3"
+        android:layout_marginEnd="12dp"/>
+
+    <TextView
+        android:id="@+id/peerName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Peer Name"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

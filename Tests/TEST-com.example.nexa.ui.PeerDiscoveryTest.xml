@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.nexa.ui.PeerDiscoveryTest" tests="20" failures="1" errors="0" skipped="0" time="3.876">
+    <testcase name="testSinglePeerDiscovery" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.234"/>
+    <testcase name="testMultiplePeerDiscovery" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.245"/>
+    <testcase name="testPeerDiscoveryNoPeers" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.198"/>
+    <testcase name="testPeerDiscoveryNetworkDrop" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.210"/>
+    <testcase name="testPeerDiscoveryMaxPeers" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.255"/>
+    <testcase name="testPeerDiscoveryNormal" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.230"/>
+    <testcase name="testPeerDiscoveryWithInvalidId" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.195"/>
+    <testcase name="testPeerDiscoveryWithNullId" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.190"/>
+    <testcase name="testPeerDiscoveryWithMalformedId" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.200"/>
+    <testcase name="testPeerDiscoveryHighLoad" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.260"/>
+    <testcase name="testPeerDiscoveryNormal2" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.235"/>
+    <testcase name="testPeerDiscoveryMultiplePeers2" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.250"/>
+    <testcase name="testPeerDiscoveryEmptyList" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.205"/>
+    <testcase name="testPeerDiscoveryInvalidData" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.200">
+        <failure message="java.lang.NullPointerException: Invalid peer data" type="java.lang.NullPointerException">
+            com.example.nexa.networking.PeerDiscoveryManager.discoverPeers(PeerDiscoveryManager.kt:89)
+            com.example.nexa.ui.PeerDiscoveryTest.testPeerDiscoveryInvalidData(PeerDiscoveryTest.kt:145)
+        </failure>
+    </testcase>
+    <testcase name="testPeerDiscoveryLargeNetwork" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.265"/>
+    <testcase name="testPeerDiscoveryNormal3" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.230"/>
+    <testcase name="testPeerDiscoveryMultiplePeers3" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.245"/>
+    <testcase name="testPeerDiscoveryEmptyNetwork" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.195"/>
+    <testcase name="testPeerDiscoveryInvalidInput" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.200"/>
+    <testcase name="testPeerDiscoveryMaxLoad" classname="com.example.nexa.ui.PeerDiscoveryTest" time="0.270"/>
+</testsuite>
